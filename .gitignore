@@ -1,0 +1,7 @@
+.*.swp
+.*.swo
+*.pyc
+.DS_Store
+.boto
+.pylintrc
+.sublime-project
