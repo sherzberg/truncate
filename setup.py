@@ -3,21 +3,21 @@
 
 from distutils.core import setup
 
-from truncate import __version__, __author__, __license__
+# from truncate import __version__, __author__, __license__
 
 
 setup(
     name='truncate',
-    version=__version__,
-    py_modules=['__init__'],
-    author=__author__,
+    version='0.11',
+    py_modules=['truncate'],
+    author='Kelvin Wong',
     author_email='www.kelvinwong.ca',
+    url='https://github.com/ansother/truncate',
     description='Intelligently truncate a given string',
     long_description='',
-    url='',
     download_url='',
     keywords='',
-    license=__license__,
+    license='http://www.python.org/psf/license/',
     install_requires=[''],
     classifiers=[
         'Intended Audience :: Developers',

@@ -2,10 +2,6 @@
 """Truncation beautifier function
 This simple function attempts to intelligently truncate a given string
 """
-__author__ = 'Kelvin Wong <www.kelvinwong.ca>'
-__date__ = '2007-06-22'
-__version__ = '0.10'
-__license__ = 'http://www.python.org/psf/license/'
 
 
 def trunc(s, min_pos=0, max_pos=75, ellipsis=True):

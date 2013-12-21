@@ -1,0 +1,4 @@
+truncate.egg-info/PKG-INFO
+truncate.egg-info/SOURCES.txt
+truncate.egg-info/dependency_links.txt
+truncate.egg-info/top_level.txt
