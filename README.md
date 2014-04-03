@@ -49,3 +49,20 @@ Return a nicely shortened string if over a set upper limit
     short_string = trunc(some_long_string)
     or
     shorter_string = trunc(some_long_string,max_pos=15,ellipsis=False)
+
+Install
+=======
+
+```bash
+$ pip install truncate
+```
+
+Development
+===========
+
+To run the tests you need pytest:
+
+```bash
+$ pip install -r test-requirements.txt
+$ py.test
+```
